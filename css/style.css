@@ -32,6 +32,18 @@ header {
   align-items: baseline;
 }
 
+.nav {
+  display: flex;
+}
+
+
+footer {
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.
+
 p {
   margin: 0;
 
@@ -48,8 +60,13 @@ p {
   margin-bottom: 2rem;
 }
 
+.o-link1 {
+  text-align:right;
+  margin-right: 3rem;
+
+}
 .o-link2 {
-text-align:right;
+text-align:left;
 }
 
 /* .story {
@@ -68,11 +85,6 @@ text-align:right;
 }
 
 
-/* .o-link {
-  margin-right: 5rem;
-  font-size: 1.3rem;
-  font-weight: bold;
-} */
 
 .scene {
   max-width: 100%;
@@ -93,30 +105,24 @@ text-align:right;
 
 
 
-
-/* .pic {
-  border: 1px solid black;
-} */
-
 .choice {
-  /* flex: 1; */
-  /* border: 1px solid black; */
+
   text-align:center;
 
-  /* text-align: center; */
-  /* justify-content: center; */
 }
 
 .intext-link {
 text-decoration: none;
 color: white;
 }
+.intext-link:hover {
+  text-decoration:underline;
+  color:white;
+
+}
 
 .c-text {
-  /* transform: translate(0px,-150px); */
-  /* position: absolute;
-     left: 0px;
-     top: 0px; */
-     margin-top: -50%;
+    font-size: 1.5rem;
+    margin-top: -50%;
     margin-bottom: 50%;
 }
