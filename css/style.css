@@ -5,6 +5,26 @@ body {
   color: white;
 }
 
+.start {
+  position: absolute;
+
+}
+
+.p-start {
+  max-width: 350px;
+  margin-top: -8.5rem;
+}
+
+.starting {
+  display: flex;
+  margin-top: -8rem;
+}
+
+.b-start {
+  flex: 1;
+}
+
+
 header {
   display: flex;
   margin-bottom: 3rem;
@@ -69,8 +89,10 @@ text-align:right;
   margin-top: -8rem;
   /* margin-bottom: 4rem; */
   /* margin-bottom: 1rem; */
-
 }
+
+
+
 
 /* .pic {
   border: 1px solid black;
