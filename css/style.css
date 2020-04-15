@@ -1,0 +1,100 @@
+body {
+  margin: 4rem;
+  font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+  background-color: black;
+  color: white;
+}
+
+header {
+  display: flex;
+  margin-bottom: 3rem;
+  /* border: 1px solid white; */
+  align-items: baseline;
+}
+
+p {
+  margin: 0;
+
+}
+
+.option {
+  align-items: baseline;
+  flex: 1;
+  font-weight: bold;
+}
+
+.back {
+  /* margin-top: 1rem; */
+  margin-bottom: 2rem;
+}
+
+.o-link2 {
+text-align:right;
+}
+
+/* .story {
+  max-width: 700px;
+  margin-left: 0 auto;
+} */
+
+.story {
+  max-width: 100%;
+}
+
+.storyline {
+  max-width: 600px;
+  margin: 0 auto;
+  margin-bottom:-3rem;
+}
+
+
+/* .o-link {
+  margin-right: 5rem;
+  font-size: 1.3rem;
+  font-weight: bold;
+} */
+
+.scene {
+  max-width: 100%;
+  /* position: relative; */
+}
+
+.paper {
+  max-width: 70%;
+}
+
+.choices {
+  display: flex;
+  font-size: 1.5rem;
+  margin-top: -8rem;
+  /* margin-bottom: 4rem; */
+  /* margin-bottom: 1rem; */
+
+}
+
+/* .pic {
+  border: 1px solid black;
+} */
+
+.choice {
+  /* flex: 1; */
+  /* border: 1px solid black; */
+  text-align:center;
+
+  /* text-align: center; */
+  /* justify-content: center; */
+}
+
+.intext-link {
+text-decoration: none;
+color: white;
+}
+
+.c-text {
+  /* transform: translate(0px,-150px); */
+  /* position: absolute;
+     left: 0px;
+     top: 0px; */
+     margin-top: -50%;
+    margin-bottom: 50%;
+}
