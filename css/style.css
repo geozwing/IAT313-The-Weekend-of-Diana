@@ -126,3 +126,12 @@ color: white;
     margin-top: -50%;
     margin-bottom: 50%;
 }
+
+.play-again {
+  margin-top: -8rem;
+  text-align: center;
+}
+
+.play {
+  max-width: 350px;
+}
